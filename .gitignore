@@ -1,0 +1,14 @@
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+
+#Dependencies
+/node_modules
+
+#IMGS
+/src/assets/img/fotos-graffiti
+/src/assets/img/otras
+/src/assets/works
+/src/assets/productos

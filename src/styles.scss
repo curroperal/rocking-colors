@@ -1,0 +1,86 @@
+/* SVG Animation */
+svg path,
+svg rect {
+  fill: black;
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.about-header {
+  margin-top: 200px;
+}
+
+section {
+  padding-bottom: 50px;
+}
+
+/* CREANDO STYLES */
+
+h1 {
+  color: #000000;
+  font-size: 44px;
+  text-transform: none;
+  letter-spacing: -2px;
+}
+
+h5 {
+  font-size: 19px;
+  color: orangered;
+}
+
+section.intro {
+  margin-top: 80px;
+  width: 100%;
+  text-align: center;
+
+  .div-container {
+    padding: 0 auto;
+
+    ul {
+      /* ul {
+  list-style-image: url('sqpurple.gif');
+} */
+      list-style-position: inside;
+      //list-style-type: none;
+      margin: 0 50px 20px;
+      padding: 0 auto;
+
+      li {
+        text-align: left;
+      }
+    }
+  }
+}
+
+a.button {
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: orangered;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-radius: 50px;
+  padding-top: 14px;
+  padding-right: 30px;
+  padding-bottom: 14px;
+  padding-left: 30px;
+}
+
+.heading-title {
+  color: #000000;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  margin: 15px 0;
+}
+
+div.loading {
+  display: flex;
+  text-align: center;
+}
