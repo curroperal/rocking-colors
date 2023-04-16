@@ -1,0 +1,9 @@
+<div class="aviso-cookies" [ngClass]="{activo: isActived}" id="aviso-cookies">
+    <img class="galleta" src="assets/img/logo-rocking-colors.png" alt="Galleta">
+    <h3 class="title">Cookies</h3>
+    <p class="parrafo">Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>
+    <button class="btn" id="btn-aceptar-cookies" (click)="isActived = !isActived">De acuerdo</button>
+    <a class="link" href="aviso-cookies.html">Aviso de Cookies</a>
+</div>
+
+<div class="fondo-aviso-cookies" [ngClass]="{activo: isActived}" id="fondo-aviso-cookies"></div>

@@ -1,0 +1,72 @@
+.aviso-cookies {
+    display: none;
+    background: #fff;
+    padding: 20px;
+    width: calc(100% - 40px);
+    max-width: 300px;
+    line-height: 150%;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding-top: 60px;
+    z-index: 999;
+    box-shadow: 0px 2px 20px 10px rgba(222,222,222,.25);
+    text-align: center;
+
+    &.activo {
+        display: block;
+    }
+
+    .galleta {
+        max-width: 100px;
+        position: absolute;
+        top: -50px;
+        left: calc(50% - 50px);
+    }
+
+    .btn {
+        width: 100%;
+        background: #595959;
+        border: none;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        padding: 15px 20px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: .3s ease all;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        font-size: 15px;
+
+        &:hover {
+            background: #000;
+        }
+    }
+
+    .link {
+        color: #4DBFFF;
+        text-decoration: none;
+        font-size: 14px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.fondo-aviso-cookies {
+    display: none;
+    background: rgba(0,0,0, .20);
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    
+    &.activo {
+        display: block;
+    }
+}
