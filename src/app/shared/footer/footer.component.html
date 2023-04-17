@@ -1,4 +1,4 @@
-<footer class="ae-container-fluid rk-footer ">
+<!-- <footer class="ae-container-fluid rk-footer ">
   <div class="ae-grid ae-grid--collapse">
     <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
       <ul class="rk-menu rk-footer-menu">
@@ -7,37 +7,18 @@
         <li routerLinkActive="active" class="rk-menu__item"><a routerLink="/about" class="rk-menu__link">Sobre
             nosotros</a>
         </li>
-        <!-- <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Docs</a>
-        </li>
-        <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact</a>
-        </li> -->
       </ul>
       <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">{{anio}}
           {{infoWebService.info.titulo}} </span>All Right Reserved.</p>
     </div>
     <div class="ae-grid__item item-lg-4 au-xs-ta-center">
       <a target="_blank" [href]="infoWebService.info.facebook" class="rk-social-btn">
-       <!--  <svg>
-          <use xlink:href="assets/img/icons8-facebook.svg"></use>
-        </svg> -->
         <img src="assets/img/icons8-facebook.svg" alt="">
       </a>
-      <!-- <a target="_blank" [href]="infoWebService.info.facebook" class="rk-social-btn ">
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#icon-twitter"></use>
-        </svg>
-      </a> -->
        <a target="_blank" [href]="infoWebService.info.instagram" class="rk-social-btn ">
-        <!-- <svg>
-          <use xlink:href="assets/img/symbols.svg#icon-instagram"></use>
-        </svg> -->
+        
         <img src="assets/img/icons8-instagram.svg" alt="">
       </a>
-      <!-- <a target="_blank" [href]="infoWebService.info.instagram" class="rk-social-btn ">
-        <svg>
-          <use xlink:href="assets/img/symbols.svg#icon-insta"></use>
-        </svg>
-      </a> -->
     </div>
     <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
       <p class="rk-footer__text rk-footer__contact "> <span class="ae-u-bold">Email: </span><span class="ae-u-bolder">
@@ -46,5 +27,70 @@
       <p class="rk-footer__text rk-footer__by">Creado por <a href="http://pixeden.com"
           class="ae-u-bolder">{{infoWebService.info.autor}}</a></p>
     </div>
+  </div>
+</footer>
+ -->
+
+<footer class="footer">
+  <div class="grupo-1">
+    <div class="box">
+      <figure>
+        <a routerLink="/home">
+          <img
+            src="assets/img/logo-rocking-colors.png"
+            alt="logo-rocking-colors"
+          />
+        </a>
+      </figure>
+    </div>
+    <div class="box">
+      <ul>
+        <li routerLinkActive="active">
+          <a routerLink="#">Política de privacidad</a>
+        </li>
+        <li routerLinkActive="active">
+          <a routerLink="#">Legal</a>
+        </li>
+        <li routerLinkActive="active">
+          <a routerLink="#">Política de cookies</a>
+        </li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3>SIGUENOS</h3>
+      <div class="red-social">
+        <a target="_blank" [href]="infoWebService.info.facebook">
+          <img src="assets/img/icons8-facebook.svg" alt="" />
+        </a>
+        <a target="_blank" [href]="infoWebService.info.instagram">
+          <img src="assets/img/icons8-instagram.svg" alt="" />
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="grupo-2">
+    <!-- <small>
+      <p>
+        <span>Email: </span>
+        <span
+          ><a href="mailTo: {{ infoWebService.info.email }}"
+            >{{ infoWebService.info.email }}
+          </a></span
+        >
+      </p>
+    </small> -->
+    <small>
+      <p>
+        <span>© </span
+        ><span>{{ anio }} {{ infoWebService.info.titulo }} </span>All Right
+        Reserved.
+      </p>
+      <p>Creado por {{ infoWebService.info.autor }}</p>
+    </small>
+    <!--  <small>
+      Creado por {{ infoWebService.info.autor }}
+       <a href="#">{{ infoWebService.info.autor }}</a>
+    </small> -->
   </div>
 </footer>
