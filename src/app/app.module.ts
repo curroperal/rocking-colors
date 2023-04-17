@@ -14,6 +14,8 @@ import { SearchComponent } from './pages/search/search.component';
 import { ServiceComponent } from './pages/service/service.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { CookiesComponent } from './shared/cookies/cookies.component';
+import { PrivacyComponent } from './pages/policy/privacy/privacy.component';
+import { LegalComponent } from './pages/policy/legal/legal.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { CookiesComponent } from './shared/cookies/cookies.component';
     SearchComponent,
     ServiceComponent,
     BlogComponent,
-    CookiesComponent
+    CookiesComponent,
+    PrivacyComponent,
+    LegalComponent
   ],
   imports: [
     BrowserModule,
